@@ -1,0 +1,7 @@
+# Zorunlu — fotoğraf işleme
+pillow>=10.0.0
+
+# Arka plan temizleme (ücretsiz, yerel). İlk çalıştırmada ~170MB model iner.
+# Kurulamazsa sistem yine çalışır (arka plan silinmeden, sadece iyileştirip çerçeveler).
+rembg[cpu]>=2.0.50
+onnxruntime>=1.16.0

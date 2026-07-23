@@ -1,0 +1,51 @@
+{
+  "brand": {
+    "name": "Lidera El İşleri",
+    "handle": "@lideraelisleri",
+    "watermark": true
+  },
+  "background": {
+    "color": [245, 239, 230],
+    "shadow": true
+  },
+  "output": {
+    "formats": [
+      { "name": "dikey", "width": 1080, "height": 1350 },
+      { "name": "kare", "width": 1080, "height": 1080 }
+    ],
+    "quality": 90
+  },
+  "enhance": {
+    "auto_white_balance": true,
+    "white_balance_strength": 0.6,
+    "autocontrast_cutoff": 0.5,
+    "brightness": 1.03,
+    "contrast": 1.05,
+    "color": 1.06,
+    "sharpness": 1.15
+  },
+  "background_removal": {
+    "enabled": true,
+    "model": "u2net",
+    "alpha_matting": true
+  },
+  "schedule": {
+    "start_date": "2026-07-05",
+    "times": ["11:00", "19:30"],
+    "days_between": 1
+  },
+  "instagram": {
+    "enabled": false,
+    "graph_version": "v21.0",
+    "ig_user_id": "BURAYA_IG_BUSINESS_USER_ID",
+    "access_token": "BURAYA_UZUN_OMURLU_SAYFA_TOKENI",
+    "max_per_run": 1,
+    "daily_cap": 20,
+    "catch_up_hours": 72
+  },
+  "hosting": {
+    "mode": "imgbb",
+    "imgbb_key": "BURAYA_IMGBB_API_KEY",
+    "base_url": ""
+  }
+}
